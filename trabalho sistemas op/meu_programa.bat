@@ -5,7 +5,7 @@ echo Terminal de controle
 
 
 :inicio
-set /p opcao= informe um numero ou help para os comandos:
+set /p opcao= informe um comando ou help para os ver os comandos disponiveis:
 if %opcao% == type (goto:type)
 if %opcao% == start (goto:start)
 if %opcao% == ren (goto:ren)
